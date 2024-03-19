@@ -55,32 +55,37 @@ body {
 }
 
 .main_title {
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: center;
-    margin-top: 9rem;
-    margin-left: 12rem;
+    margin: 13rem;
+    margin-right: 10rem;
     font-size: 50px;
 }
 
-.main_title h1 {
+.title_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.title_container h1 {
     color: #ff702a;
 }
 
-.main_title p {
-    width: rem;
+.title_container p {
     font-size: 30px;
 }
 
-.main_title p.button {
+.title_container p.button {
+    
     font-size: 17px;
     margin-top: 1.5rem;
+    margin-right: 0px ;
 }
 
 .home_image {
-    display: flex;
-    align-self: flex-end;
-    justify-self: space-around;
     width: 20rem;
+    display: flex;
+    justify-self: center;
+    align-self: flex-end;
 }
