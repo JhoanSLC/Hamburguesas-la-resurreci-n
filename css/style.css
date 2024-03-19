@@ -12,14 +12,28 @@ body {
     width: 100%;
 }
 
+section {
+    display: grid;
+}
+
 .button {
     background-color: #ff702a;
     padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.1);
+    background-color: #ee8d5d;
 }
 
 
+/* HOME SECTION */
+
 #home_section {
-    border: solid red;
+    display: grid;
 }
 
 .header_nav {
@@ -30,13 +44,15 @@ body {
     margin-left: 7rem;
     margin-right: 4rem;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     font-size: 20px;
     
 }
+
 .header_nav h1 {
     color: #ff702a;
 }
+
 .main_nav {
     display: flex;
     align-items: center;
@@ -44,7 +60,7 @@ body {
 
 .main_nav a {
     padding: 1px 3px 1px 3px;
-    margin-right: 1.4rem;
+    margin-right: 4rem;
     font-size: 20px;
     text-decoration: none;
 
@@ -52,20 +68,28 @@ body {
 
 .main_nav a:hover {
     outline: solid 1.5px rgb(53, 102, 53);
+    outline-offset: 3px;
 }
 
 .main_title {
-    margin: 13rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12rem;
+    margin-top: 3rem;
     margin-right: 10rem;
-    font-size: 50px;
+    margin-bottom: 13rem;
+    font-size: 70px;
+    
 }
 
 .title_container {
+    margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
-    
+    padding-top: 60px;
 }
 
 .title_container h1 {
@@ -77,15 +101,71 @@ body {
 }
 
 .title_container p.button {
-    
     font-size: 17px;
     margin-top: 1.5rem;
     margin-right: 0px ;
 }
 
-.home_image {
-    width: 20rem;
-    display: flex;
-    justify-self: center;
-    align-self: flex-end;
+.first_image {
+    width: 36rem;
+    margin-right: 5rem;
+
 }
+
+
+
+/* ABOUT US SECTION */
+
+#about_us_section {
+    display: grid;
+   
+}
+
+.about-us-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12rem;
+    margin-top: 10rem;
+    margin-right: 10rem;
+    margin-bottom: auto;
+    font-size: 70px; 
+}
+
+.about-us-info img {
+    width: 36rem;
+    margin-right: 0;
+    padding-right: 10rem;
+}
+
+.about_us_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    
+    margin-right: 5rem;
+
+    .subtitle {
+        font-size: 24px;
+        color: #ff702a;
+    }
+
+    .button {
+        margin-top: 2rem;
+    }
+
+}
+
+.about_us_text h1 {
+    font-size: 55px;
+}
+
+.about_us_text p {
+    margin-top: 10px;
+    font-size: 22px;
+    text-align:justify;
+    
+}
+
