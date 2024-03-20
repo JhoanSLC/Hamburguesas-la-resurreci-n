@@ -11,18 +11,19 @@
   <div class="container">
     <!-- Header Section -->
     <header id="home_section">
-      <nav class="header_nav">
+      <div class="header_nav">
         <h1>Foods</h1>
-        <div class="menu_icon"><i class='bx bx-menu'></i></div>
+        <input type="checkbox" id="toggle_menu">
+        <label class="menu_icon"><i class='bx bx-menu'></i></label>
         <!--  Main nav bar (header)-->
-        <div class="nav_links">
+        <nav class="nav_links">
           <a href="#home_section">Home</a> 
           <a href="#about_us_section">About</a> 
           <a href="#food_menu_section">Menu</a> 
           <a href="#services_section">Service</a> 
           <a href="#footer_section">Contact</a>
-        </div>
-      </nav>
+        </nav>
+      </div>
       <section class="main_title">
         <div class="title_container">
           <h1>Full Website</h1>
@@ -107,29 +108,29 @@
         <h1>We provide best food services</h1>
       </section>
 
-      <section>
+      <section class="services_boxes">
 
-        <article class="services_boxes order_box">
-          <img title="order image" alt="An image that represents the order service" src="">
+        <article class="service_box order_box">
+          <img title="order image" alt="An image that represents the order service" src="sources/s1 (1).png">
           <div class="service_description">
             <h1>Order</h1>
-            <p>It is a long established be distracted by the readable looking at its layout.</p>
+            <p>It is a long established <br> be distracted by the readable looking at its layout.</p>
           </div>
         </article>
 
-        <article class="services_boxes shipping_box">
-          <img title="shipping image" alt="An image that represents the shipping service" src="">
+        <article class="service_box shipping_box">
+          <img title="shipping image" alt="An image that represents the shipping service" src="sources/s2 (1).png">
           <div class="service_description">
             <h1>Shipping</h1>
-            <p>It is a long established be distracted by the readable looking at its layout.</p>
+            <p>It is a long established <br> be distracted by the readable looking at its layout.</p>
           </div>
         </article>
 
-        <article class="services_boxes dellvered_box">
-          <img title="dellvered image" alt="An image that represents the dellvered service" src="">
+        <article class="service_box dellvered_box">
+          <img title="dellvered image" alt="An image that represents the dellvered service" src="sources/s3 (1).png">
           <div class="service_description">
             <h1>Dellvered</h1>
-            <p>It is a long established be distracted by the readable looking at its layout.</p>
+            <p>It is a long established <br> be distracted by the readable looking at its layout.</p>
           </div>
         </article>
       </section>
@@ -140,7 +141,7 @@
     <div id="final_section">
 
       <section class="final_box">
-        <p>We make quality food everyday</p>
+        <p class="first">We make quality food <br>everyday</p>
         <p class="button">Learn More</p>
       </section>
 
@@ -151,11 +152,13 @@
     <div id="footer_section">
       <footer>
 
-        <div class="menu_links_box">
+        <div class="footer_box menu_links_box">
+          <h1 class="linea_de_abajo">Menu Links</h1>
           <a href="#home_section">Home</a> <a href="#about_us_section">About</a> <a href="#food_menu_section">Menu</a> <a href="#services_section">Service</a> <a href="#footer_section">Contact</a>
         </div>
 
-        <div class="our_service_box">
+        <div class="footer_box our_service_box">
+          <h1>Our Service</h1>
           <p>Web Design</p>
           <p>Web Development</p>
           <p>Marketing</p>
@@ -163,14 +166,20 @@
           <p>Graphic Design</p>
         </div>
 
-        <div class="info_box">
+        <div class="footer_box info_box">
+          <h1>Information</h1>
           <p>About us</p>
           <p>Delivery Information</p>
           <p>Privacy Policy</p>
           <p>Terms & Conditions</p>
         </div>
 
-        <div class="contact_us_box"><img class="phone" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEvVlWFOAkEMhR83kZOgJxFPApxEOYneRG+i+ZK+Ta2zs8Mk/HASAttAv9fXdtjpzmd35/xaAzxIepXE+5Okr1khLYCTP0ZSkk9DKiAnt2pi05AKwJZjJNyHRe/xPgWpgO+wJcepIEMAD58K+Ay1JMkWURk9+Yh+TANQSiKaSjKOYwBvUs+PawVnSSdJF0l85riqDJ2uAPUozmrd+DdJL8OZG80klBtqxcSoAigAWzfEai2abcqKHaujurnxa5uMYg6KAdUFpIpr9Ku78Wt3EcuG91kxEOIMQT7dje/dpj1bDPIw1GVc7q4eoNqCJR7dVoObG7/1f1BtoR+AWpOUBS0bvwWwUtvlZ6wxyD3wdfJr40cB3hG8f46patn05zq5BeCEWMFoHgLEM698vSzwGcDQBvtL/x/wA/BTWBmBAmfCAAAAAElFTkSuQmCC" alt="BTWBmBAmfCAAAAAElFTkSuQmCC"> <img class="facebook" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATVJREFUSEu1lY0RwiAMhV830UnUTXQSdRJ1krqJuok+DriUJhB6Nnc9tCX58kcYsLIMK9uHB7AHwGcX1zeAJ4BPXPnblBpgA+AWjdZsEHgAwHUmFuAC4NyRPhp/AKDeRDSA1ziNMkop1xJSAqjwqnhOozRyF3ukQ/x+irUJW0rA2Mj5Vsl1GTEh3DcDHGNRrQDoNb1Lwmipk7pL6rHoobtkBK3cy/y2nMl7JYAtSUVLegD0nlFMImBxy66wOqQVQa6DjEADTApmhGY1RrAtAdpGD0BzLDdEq8hpDNAZOQpkKrVzowI40BjFP4rMdg6Hseegebsod5AGqI0KLyAfMg3Ad9aB8wCawy7lX4O0ADnvsog9F44FmE1QL6AcajSUxnS6Rvlfvcm0aVrp0OWfPJf+cus/zS+PhlEZkTtroQAAAABJRU5ErkJggg==" alt="zS+PhlEZkTtroQAAAABJRU5ErkJggg=="> <img class="insta" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEvFlc1NQ0EMhCdNcAUqAQ4UQAFIUAkg0QfQBhegEn4O3KkA9CHPk7XP2ew7PGUvURLbMx7Pejda+WxWrq+9ARxJupJ0Ium00+VH/Pcq6U6Sv08pVQcUfogIEkjuHchAgtgnSbc5uAUg+D2Kni2YD3kvEX+dSbUAMKeD46rdAvAypPmRdFGRawFgT6sVe4BheijpTdKjpHNJz5K+4nd3MeW3AL+RSJs+FKWzdtgQuZf0Lekg9AeAeBT4PyMAJFEclzBAO+wmup2KBRE6neruArCjXDyPwf8hh53mGXYBcrHe0O24Kn4YAEmQYpurmNliANzhIaM9M6gkMjix5HCGJMoAdhCfvqV5yGifLb0YAFY9m1I875+dALOLEq1737D8PqOoZcnOml3UalWge8tsZC3ZVVni2UVzkNfFbP1uQcoy5ntRPji+QHnXj6xrYrKjylWR9w/+t/Y9AL8ZuGz2duztyRwZ6lDM6h38AR+saBlSNKaiAAAAAElFTkSuQmCC" alt="Y9AL8ZuGz2duztyRwZ6lDM6h38AR+saBlSNKaiAAAAAElFTkSuQmCC"> <img class="whatsapp" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASRJREFUSEvFldENwjAMRK+bwCTAJMAkiEmASYBJYBPQQzGyQlAcqpT8gNrmns++tIM6r6GzviYHnCUtR7o6StqaRu7gMVL8Q/cXwF3SrFLIWzcKwPZeEuIs2rhOvyVYGICg9XOXBA1yknSRdCg4CgNWaTMipYUr3BEO7yQEYDMVshkXCOAiXxRBy/y9EICN9Hkjvc4LgFsBQBEUQyFNKZo768BYXsTEmAnP+oiHHLCJ3mMfESC4oRV5VHnWuwsB8t4aBCCDtZbxn0Q1t8iy7ysDYvG0wVKIRbhpBgwPsW8RRYx0Ac1nE2qRxRQhROz00hrAOORaqYAQgMEhsEj9vqZzARCIvSpKBzAEGPNi/R+AxNRexTVnhMMO5vSfzFp1zfe7f/SftQVJGafS4SkAAAAASUVORK5CYII=" alt="SftQVJGafS4SkAAAAASUVORK5CYII="></div>
+        <div class="footer_box contact_us_box">
+          <h1>Contact us</h1>
+          <img class="icon_box phone" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT1JREFUSEvVlWFOAkEMhR83kZOgJxFPApxEOYneRG+i+ZK+Ta2zs8Mk/HASAttAv9fXdtjpzmd35/xaAzxIepXE+5Okr1khLYCTP0ZSkk9DKiAnt2pi05AKwJZjJNyHRe/xPgWpgO+wJcepIEMAD58K+Ay1JMkWURk9+Yh+TANQSiKaSjKOYwBvUs+PawVnSSdJF0l85riqDJ2uAPUozmrd+DdJL8OZG80klBtqxcSoAigAWzfEai2abcqKHaujurnxa5uMYg6KAdUFpIpr9Ku78Wt3EcuG91kxEOIMQT7dje/dpj1bDPIw1GVc7q4eoNqCJR7dVoObG7/1f1BtoR+AWpOUBS0bvwWwUtvlZ6wxyD3wdfJr40cB3hG8f46patn05zq5BeCEWMFoHgLEM698vSzwGcDQBvtL/x/wA/BTWBmBAmfCAAAAAElFTkSuQmCC" alt="BTWBmBAmfCAAAAAElFTkSuQmCC"> 
+          <img class="icon_box facebook" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATVJREFUSEu1lY0RwiAMhV830UnUTXQSdRJ1krqJuok+DriUJhB6Nnc9tCX58kcYsLIMK9uHB7AHwGcX1zeAJ4BPXPnblBpgA+AWjdZsEHgAwHUmFuAC4NyRPhp/AKDeRDSA1ziNMkop1xJSAqjwqnhOozRyF3ukQ/x+irUJW0rA2Mj5Vsl1GTEh3DcDHGNRrQDoNb1Lwmipk7pL6rHoobtkBK3cy/y2nMl7JYAtSUVLegD0nlFMImBxy66wOqQVQa6DjEADTApmhGY1RrAtAdpGD0BzLDdEq8hpDNAZOQpkKrVzowI40BjFP4rMdg6Hseegebsod5AGqI0KLyAfMg3Ad9aB8wCawy7lX4O0ADnvsog9F44FmE1QL6AcajSUxnS6Rvlfvcm0aVrp0OWfPJf+cus/zS+PhlEZkTtroQAAAABJRU5ErkJggg==" alt="zS+PhlEZkTtroQAAAABJRU5ErkJggg=="> 
+          <img class="icon_box insta" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXBJREFUSEvFlc1NQ0EMhCdNcAUqAQ4UQAFIUAkg0QfQBhegEn4O3KkA9CHPk7XP2ew7PGUvURLbMx7Pejda+WxWrq+9ARxJupJ0Ium00+VH/Pcq6U6Sv08pVQcUfogIEkjuHchAgtgnSbc5uAUg+D2Kni2YD3kvEX+dSbUAMKeD46rdAvAypPmRdFGRawFgT6sVe4BheijpTdKjpHNJz5K+4nd3MeW3AL+RSJs+FKWzdtgQuZf0Lekg9AeAeBT4PyMAJFEclzBAO+wmup2KBRE6neruArCjXDyPwf8hh53mGXYBcrHe0O24Kn4YAEmQYpurmNliANzhIaM9M6gkMjix5HCGJMoAdhCfvqV5yGifLb0YAFY9m1I875+dALOLEq1737D8PqOoZcnOml3UalWge8tsZC3ZVVni2UVzkNfFbP1uQcoy5ntRPji+QHnXj6xrYrKjylWR9w/+t/Y9AL8ZuGz2duztyRwZ6lDM6h38AR+saBlSNKaiAAAAAElFTkSuQmCC" alt="Y9AL8ZuGz2duztyRwZ6lDM6h38AR+saBlSNKaiAAAAAElFTkSuQmCC"> 
+          <img class="icon_box whatsapp" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASRJREFUSEvFldENwjAMRK+bwCTAJMAkiEmASYBJYBPQQzGyQlAcqpT8gNrmns++tIM6r6GzviYHnCUtR7o6StqaRu7gMVL8Q/cXwF3SrFLIWzcKwPZeEuIs2rhOvyVYGICg9XOXBA1yknSRdCg4CgNWaTMipYUr3BEO7yQEYDMVshkXCOAiXxRBy/y9EICN9Hkjvc4LgFsBQBEUQyFNKZo768BYXsTEmAnP+oiHHLCJ3mMfESC4oRV5VHnWuwsB8t4aBCCDtZbxn0Q1t8iy7ysDYvG0wVKIRbhpBgwPsW8RRYx0Ac1nE2qRxRQhROz00hrAOORaqYAQgMEhsEj9vqZzARCIvSpKBzAEGPNi/R+AxNRexTVnhMMO5vSfzFp1zfe7f/SftQVJGafS4SkAAAAASUVORK5CYII=" alt="SftQVJGafS4SkAAAAASUVORK5CYII="></div>
       </footer>
     </div>
 
