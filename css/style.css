@@ -364,7 +364,7 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
 
     .container {
         padding: 0;
@@ -373,9 +373,8 @@ body {
     .header_nav {
         flex-direction: row;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
         margin-left: 2rem;
-
     }
 
     .header_nav a {
@@ -384,11 +383,13 @@ body {
 
     .header_nav h1 {
         padding: 0;
+        font-size: 2rem;
     }
 
     .menu_icon {
         display: flex;
-        margin-left: 20rem;
+        margin-left: auto;
+        margin-right: 2rem;
     }
 
     .main_nav {
@@ -396,13 +397,50 @@ body {
     }
 
     .main_title {
+        display: flex;
+        flex-direction: column;
         margin: 2rem 0;
         text-align: center;
     }
 
+    .main_title h1 {
+        font-size: 2.6rem;
+    }
+
+    .main_title p {
+        font-size: 1.5rem;
+    }
+
+    .button {
+        font-size: smaller
+    }
+
+    #home_section {
+        margin-bottom: 0;
+    }
+
+    #about_us_section {
+        margin-top: 12rem;
+        margin-bottom: 0;
+    }
+
+    #food_menu_section {
+        margin-top: 12rem;
+        margin-bottom: 0;
+    }
+
+
+
     .home_image {
+        display: flex;
+        justify-content: center;
         text-align: center;
         margin: auto;
+    }
+
+    .home_image img {
+        width: 18rem;
+        margin-left: 1.4rem;
     }
 
     .about-us-info {
@@ -413,9 +451,18 @@ body {
         text-align: center;
     }
 
+    .about-us-info h1 {
+        font-size: 2rem;
+    }
+
+    .about-us-info p {
+        font-size: 1rem;
+    }
+
     .about-us-info img {
         margin: auto;
         margin-bottom: 2rem;
+        width: 18rem;
     }
 
     #food_menu_section {
@@ -443,7 +490,30 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
 
-   
+    .food_menu_header h3 {
+        font-size: 1.6rem;
+    }
+
+    .food_menu_header h1 {
+        font-size: 2.3rem;
+    }
+
+    .food_menu_boxes p {
+        font-size: 0.9rem;
+    }
+
+    .first_box img {
+        width: 14rem;
+    }
+
+    .second_box img {
+        width: 14rem;
+    }
+
+    .third_box img {
+        width: 14rem;
+    }
 }
