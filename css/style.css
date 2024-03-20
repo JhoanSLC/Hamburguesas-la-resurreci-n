@@ -375,6 +375,7 @@ body {
         justify-content: space-between;
         align-items: flex-start;
         margin-left: 2rem;
+
     }
 
     .header_nav a {
@@ -388,7 +389,6 @@ body {
     .menu_icon {
         display: flex;
         margin-left: 20rem;
-        cursor:pointer;
     }
 
     .main_nav {
@@ -402,17 +402,48 @@ body {
 
     .home_image {
         text-align: center;
+        margin: auto;
     }
 
     .about-us-info {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         margin-top: 5rem;
         margin-bottom: 5rem;
+        text-align: center;
     }
 
     .about-us-info img {
-        margin-right: 0;
+        margin: auto;
         margin-bottom: 2rem;
     }
+
+    #food_menu_section {
+        margin: 2rem 0;
+    }
+
+    .first_box, .second_box, .third_box {
+        margin: 0;
+    }
+
+    .food_menu_header {
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .food_menu_header h1 {
+        font-size: 3rem;
+    }
+
+    .food_menu_images {
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
 }
