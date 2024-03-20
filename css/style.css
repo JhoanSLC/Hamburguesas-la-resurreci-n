@@ -12,160 +12,286 @@ body {
     width: 100%;
 }
 
-section {
-    display: grid;
-}
 
-.button {
-    background-color: #ff702a;
-    padding: 4px 10px;
-    border-radius: 10px;
-}
-
-.button:hover {
-    cursor: pointer;
-    transition: 0.2s;
-    transform: scale(1.1);
-    background-color: #ee8d5d;
-}
-
-
-/* HOME SECTION */
-
-#home_section {
-    display: grid;
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .header_nav {
     display: flex;
-    flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 7rem;
-    margin-right: 4rem;
     margin-top: 20px;
-    margin-bottom: 2rem;
-    font-size: 20px;
-    
+    padding: 20px 0;
+    margin-left: 10rem;
+}
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+
+}
+
+.nav_links a {
+    margin-right: 5rem;
+    text-decoration: none;
+    color: #efff;
+    padding: 6px;
+}
+
+.nav_links a:hover {
+    outline: solid green 1.5px;
+
 }
 
 .header_nav h1 {
     color: #ff702a;
 }
 
-.main_nav {
-    display: flex;
-    align-items: center;
-}
-
-.main_nav a {
-    padding: 1px 3px 1px 3px;
-    margin-right: 4rem;
-    font-size: 20px;
-    text-decoration: none;
-
-}
-
-.main_nav a:hover {
-    outline: solid 1.5px rgb(53, 102, 53);
-    outline-offset: 3px;
+.menu_icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
 }
 
 .main_title {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 12rem;
-    margin-top: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    margin-left: 14rem;
     margin-right: 10rem;
-    margin-bottom: 13rem;
-    font-size: 70px;
-    
 }
 
 .title_container {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding-top: 60px;
+    max-width: 100%;
 }
 
 .title_container h1 {
-    color: #ff702a;
+    font-size: 7rem;
+    margin-bottom: 1rem;
 }
 
 .title_container p {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
-.title_container p.button {
-    font-size: 17px;
-    margin-top: 1.5rem;
-    margin-right: 0px ;
+.button {
+    background-color: #ff702a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
-.first_image {
-    width: 36rem;
-    margin-right: 5rem;
-
+.button:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+    background-color: #e4936b;
+    
 }
 
-
-
-/* ABOUT US SECTION */
-
-#about_us_section {
-    display: grid;
-   
+.home_image img {
+    width: 34rem;
 }
 
-.about-us-info{
+.about-us-info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 12rem;
-    margin-top: 10rem;
-    margin-right: 10rem;
-    margin-bottom: auto;
-    font-size: 70px; 
+    margin-top: 15rem;
+    margin-bottom: 10rem;
 }
 
 .about-us-info img {
-    width: 36rem;
-    margin-right: 0;
-    padding-right: 10rem;
+    max-width: 100%;
+    margin-right: 10rem;
+    margin-bottom: 20rem;
+}
+
+.subtitle {
+    color: #ff702a;
 }
 
 .about_us_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    
-    
-    margin-right: 5rem;
-
-    .subtitle {
-        font-size: 24px;
-        color: #ff702a;
-    }
-
-    .button {
-        margin-top: 2rem;
-    }
-
+    max-width: 100%;
 }
 
 .about_us_text h1 {
-    font-size: 55px;
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 .about_us_text p {
-    margin-top: 10px;
-    font-size: 22px;
-    text-align:justify;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+section.food_menu_images {
+    margin-right: 14rem;
+}
+
+#food_menu_section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+}
+
+.food_menu_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7rem;
+    margin-right: 14rem;
+}
+
+.subtitle h3 {
+    display: flex;
+    color: #ff702a;
+}
+
+.subtitle h1 {
+    font-size: 5rem;
+}
+
+.food_menu_images {
+    display: flex;justify-content: space-between;-between;
+    align-items: center;
     
 }
 
+.food_menu_images img {
+    width: 19rem;
+    background-color: #ffefe8;
+   
+}
+
+.food_menu_boxes {
+    display: flex;
+    flex-direction: column;
+    border: white solid;
+    border-radius: 20px;
+    padding: 2rem;
+    background-color: #ffefe8;
+    margin-right: 2rem;
+
+}
+
+.food_menu_boxes p.price {
+    color: #ff702a;
+    font-style:oblique
+}
+
+.food_menu_boxes:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.food_menu_boxes p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffefe8;
+    color: black;
+    font-size: 20px;
+
+    
+}
+
+.food_menu_boxes p:first-of-type {
+    margin-top: 20px;
+}
+
+.first_box {
+    margin-left: 10rem;
+}
+
+.third_box {
+    margin-right: 12rem;
+}
+
+.services_header {
+}
+.services_boxes {
+}
+.order_box {
+}
+.service_description {
+}
+.shipping_box {
+}
+.dellvered_box {
+}
+.final_box {
+}
+.button {
+}
+.menu_links_box {
+}
+.our_service_box {
+}
+.info_box {
+}
+.contact_us_box {
+}
+.phone {
+}
+.facebook {
+}
+.insta {
+}
+.whatsapp {
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        padding: 0;
+    }
+
+    .header_nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu_icon {
+        display: block;
+    }
+
+    .main_nav {
+        display: none;
+    }
+
+    .main_title {
+        margin: 2rem 0;
+        text-align: center;
+    }
+
+    .home_image {
+        text-align: center;
+    }
+
+    .about-us-info {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .about-us-info img {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}
