@@ -319,7 +319,13 @@ body {
     align-items: flex-start;
 }
 
-
+#footer_section footer hr {
+    width: 4.2rem;
+    height: 0.1rem;
+    color: #ff702a;
+    background-color: #ff702a;
+    border-color: #ff702a;
+}
 
 .menu_links_box {
     display: flex;
@@ -332,15 +338,28 @@ body {
     text-decoration: none;
 }
 
+.menu_links_box a:first-of-type {
+    margin-top: 1rem;
+}
+
 .our_service_box {
     display: flex;
     flex-direction: column;
     margin-right: 3rem;
 }
+
+.our_service_box p:first-of-type {
+    margin-top: 1rem;
+}
+
 .info_box {
     display: flex;
     flex-direction: column;
     margin-right: 3rem;
+}
+
+.info_box p:first-of-type {
+    margin-top: 1rem;
 }
 
 .icon_box {
@@ -348,6 +367,7 @@ body {
     background-color: #ff702a;
     border-radius: 50%;
     margin-left: 0.4rem;
+    margin-top: 1rem;
 }
 
 .phone {
@@ -366,201 +386,3 @@ body {
 }
 
 
-@media screen and (max-width: 720px) {
-
-    .container {
-        padding: 0;
-    }
-
-    .header_nav {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 2rem;
-    }
-
-    .header_nav a {
-        display: none;
-    }
-
-    .header_nav h1 {
-        padding: 0;
-        font-size: 2rem;
-    }
-
-    .menu_icon {
-        display: flex;
-        margin-left: auto;
-        margin-right: 2rem;
-    }
-
-    .main_nav {
-        display: none;
-    }
-
-    .main_title {
-        display: flex;
-        flex-direction: column;
-        margin: 2rem 0;
-        text-align: center;
-    }
-
-    .main_title h1 {
-        font-size: 2.6rem;
-    }
-
-    .main_title p {
-        font-size: 1.5rem;
-    }
-
-    .button {
-        font-size: smaller
-    }
-
-    #home_section {
-        margin-bottom: 0;
-    }
-
-    #about_us_section {
-        margin-top: 12rem;
-        margin-bottom: 0;
-    }
-
-    #food_menu_section {
-        margin-top: 12rem;
-        margin-bottom: 0;
-    }
-
-
-
-    .home_image {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-    }
-
-    .home_image img {
-        width: 18rem;
-        margin-left: 1.4rem;
-    }
-
-    .about-us-info {
-        flex-direction: column-reverse;
-        align-items: center;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-        text-align: center;
-    }
-
-    .about-us-info h1 {
-        font-size: 2rem;
-    }
-
-    .about-us-info p {
-        font-size: 1rem;
-    }
-
-    .about-us-info img {
-        margin: auto;
-        margin-bottom: 2rem;
-        width: 18rem;
-    }
-
-    #food_menu_section {
-        margin: 2rem 0;
-    }
-
-    .first_box, .second_box, .third_box, .order_box, .shipping_box, .dellvered_box {
-        margin: 0;
-    }
-
-    .food_menu_header, .services_header {
-        margin: 2rem 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .food_menu_header h1 {
-        font-size: 3rem;
-    }
-
-    .food_menu_images, .services_boxes, #footer_section footer {
-        margin: 2rem 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .food_menu_header h3, .services_header h3 {
-        font-size: 1.6rem;
-    }
-
-    .food_menu_header h1, .services_header h1 {
-        font-size: 2.3rem;
-    }
-
-    .food_menu_boxes p, .services_boxes p  {
-        font-size: 0.9rem;
-    }
-
-    .first_box img, .second_box img, .third_box img, .order_box img, .shipping_box img, .dellvered_box img {
-        width: 14rem;
-    }
-
-
-    #services_section {
-        margin: 2rem 0;
-    }
-
-    .order_box, .shipping_box, .dellvered_box {
-        margin-bottom: 3rem;
-    }
-
-    .services_boxes h1 {
-        font-size: 1.6rem;
-    }
-
-    #final_section {
-       margin-left: 2rem;
-       margin-right: 2rem;
-       padding-top: 1rem;
-       padding-bottom: 1rem;
-    }
-    
-    .final_box {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem; 
-    }
-
-    .final_box p.first {
-        font-size: 1.4rem;
-        padding-top: 1rem;
-    }
-   
-    #footer_section {
-        margin: 2rem 0;
-    }
-
-    #footer_section footer {
-        margin: 2rem 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin-left: 2rem;
-
-    }
-
-    .menu_links_box, .our_service_box, .info_box, .contact_us_box {
-        margin-bottom: 2rem;
-    }
-
-    .menu_links_box a:first-of-type, .our_service_box p:first-of-type, .info_box p:first-of-type, .contact_us_box p:first-of-type {
-        margin-top: 2rem;
-    }
-
-}
