@@ -12,6 +12,15 @@ body {
     width: 100%;
 }
 
+.checkbtn {
+    font-size: 30px;
+    order: 2;
+    display: none;
+}
+
+#check {
+    display: none;
+}
 
 .container {
     max-width: 100%;
@@ -27,6 +36,7 @@ body {
     padding: 20px 0;
     margin-left: 10rem;
 }
+
 .nav_links {
     display: flex;
     flex-direction: row;
@@ -45,6 +55,14 @@ body {
 .nav_links a:hover {
     outline: solid green 1.5px;
 
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
 }
 
 .header_nav h1 {
@@ -336,6 +354,10 @@ body {
 
 .menu_links_box a {
     text-decoration: none;
+}
+
+.menu_links_box a:visited, .menu_links_box a {
+    color: white;
 }
 
 .menu_links_box a:first-of-type {
