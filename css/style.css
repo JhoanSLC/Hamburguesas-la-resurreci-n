@@ -50,6 +50,7 @@ body {
     text-decoration: none;
     color: #efff;
     padding: 6px;
+    font-size: 1.3rem;
 }
 
 .nav_links a:hover {
@@ -196,6 +197,7 @@ nav ul li {
 }
 
 .food_menu_boxes {
+    position: relative;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -407,4 +409,18 @@ nav ul li {
     cursor: pointer;
 }
 
+
+.cart_icon {
+    background-color: #ffefe8
+}
+
+.bxs-cart {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    color: black;
+    background-color: #ffefe8;
+    font-size: 3rem;
+    cursor: pointer;
+}
 

@@ -1,196 +1,260 @@
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 1530px) and (min-width: 770px) {
 
     .container {
-        padding: 0;
-    }
-
-    .header_nav {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 2rem;
-    }
-
-    .header_nav a {
-        display: none;
-    }
-
-    .header_nav h1 {
-        padding: 0;
-        font-size: 2rem;
-    }
-
-    .menu_icon {
-        display: flex;
-        margin-left: auto;
-        margin-right: 2rem;
-    }
-
-    .main_nav {
-        display: none;
-    }
-
-    .main_title {
-        display: flex;
-        flex-direction: column;
-        margin: 2rem 0;
-        text-align: center;
-    }
-
-    .main_title h1 {
-        font-size: 2.6rem;
-    }
-
-    .main_title p {
-        font-size: 1.5rem;
-    }
-
-    .button {
-        font-size: smaller
-    }
-
-    #home_section {
-        margin-bottom: 0;
-    }
-
-    #about_us_section {
-        margin-top: 12rem;
-        margin-bottom: 0;
-    }
-
-    #food_menu_section {
-        margin-top: 12rem;
-        margin-bottom: 0;
-    }
-
-    .home_image {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-    }
-
-    .home_image img {
-        width: 18rem;
-        margin-left: 1.4rem;
-    }
-
-    .about-us-info {
-        flex-direction: column-reverse;
-        align-items: center;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-        text-align: center;
-    }
-
-    .about-us-info h1 {
-        font-size: 2rem;
-    }
-
-    .about-us-info p {
-        font-size: 1rem;
-    }
-
-    .about-us-info img {
-        margin: auto;
-        margin-bottom: 2rem;
-        width: 18rem;
-    }
-
-    #food_menu_section {
-        margin: 2rem 0;
-    }
-
-    .first_box, .second_box, .third_box, .order_box, .shipping_box, .dellvered_box {
-        margin: 0;
-    }
-
-    .food_menu_header, .services_header {
-        margin: 2rem 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .food_menu_header h1 {
-        font-size: 3rem;
-    }
-
-    .food_menu_images, .services_boxes, #footer_section footer {
-        margin: 2rem 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .food_menu_header h3, .services_header h3 {
-        font-size: 1.6rem;
-    }
-
-    .food_menu_header h1, .services_header h1 {
-        font-size: 2.3rem;
-    }
-
-    .food_menu_boxes p, .services_boxes p  {
-        font-size: 0.9rem;
-    }
-
-    .first_box img, .second_box img, .third_box img, .order_box img, .shipping_box img, .dellvered_box img {
-        width: 14rem;
-    }
-
-
-    #services_section {
-        margin: 2rem 0;
-    }
-
-    .order_box, .shipping_box, .dellvered_box {
-        margin-bottom: 3rem;
-    }
-
-    .services_boxes h1 {
-        font-size: 1.6rem;
-    }
-
-    #final_section {
-       margin-left: 2rem;
-       margin-right: 2rem;
-       padding-top: 1rem;
-       padding-bottom: 1rem;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
     }
     
-    .final_box {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem; 
+    .header_nav {
+        margin: auto;
     }
+    
+    
+    .nav_links a {
+        margin-right: 2rem;
+        padding: 6px;
+        font-size: 1.24rem;
+    }
+    
+    
+    .main_title {
+        margin-top: 6rem;
+        margin-bottom: 5rem;
+        margin-left: 5rem;
+        margin-right: 9rem;
+    }
+    
+    
+    .title_container h1 {
+        font-size: 4rem;
+    }
+    
+    .title_container p {
+        font-size: 1.5rem;
+    }
+    
+    .button {
+        font-size: 1rem;
+    }
+    
+    .home_image img {
+        width: 24rem;
+    }
+    
+    #about_us_section {
+        margin-bottom: 15rem;
+        margin-top: 15rem;
+    }
+    
+    .about-us-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10rem;
+       
+    }
+    
+    .about-us-info img {
+        width: 24rem;
+    }
+    
+    
+    .about_us_text h1 {
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .about_us_text p {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+    
 
-    .final_box p.first {
-        font-size: 1.4rem;
-        padding-top: 1rem;
+    .subtitle h3 {
+        display: flex;
+        font-size: 1.5rem;
+        color: #ff702a;
     }
-   
-    #footer_section {
-        margin: 2rem 0;
+    
+    .subtitle h1 {
+        font-size: 2.4rem;
     }
-
-    #footer_section footer {
-        margin: 2rem 0;
+    
+    .food_menu_images img {
+        width: 10rem;
+        background-color: #ffefe8;
+       
+    }
+    
+    .food_menu_boxes p {
+        font-size: 17px;
+    }
+    
+    .food_menu_boxes p:first-of-type {
+        margin-top: 20px;
+    }
+    
+    .first_box {
+        margin-left: 12rem;
+    }
+    
+    .third_box {
+        margin-right: 12rem;
+    }
+    
+    
+    .food_menu_images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    #services_section {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin-left: 2rem;
-
+        flex-wrap: wrap;
+        margin-top: 0rem;
+        margin-bottom: 12rem;
+    }
+    
+    
+    .services_header h3 {
+        font-size: 1.3rem;
+    }
+    
+    .services_header h1 {
+        font-size: 2rem;
+    }
+    
+    
+    .services_boxes img {
+        width: 13rem;
+    }
+    
+    .service_box h1 {
+        color: #ff702a;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .service_box p {
+        font-size: 1rem;
+    }
+    
+    .services_boxes {
+        gap: 2rem;
     }
 
-    .menu_links_box, .our_service_box, .info_box, .contact_us_box {
-        margin-bottom: 2rem;
+    .order_box {
+        margin-right: 4rem;
     }
-
-    .menu_links_box a:first-of-type, .our_service_box p:first-of-type, .info_box p:first-of-type, .contact_us_box p:first-of-type {
-        margin-top: 2rem;
+    
+    .shipping_box {
+        margin-right: 4rem;
     }
+    
+    #final_section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-left: 14rem;
+        margin-right: 14rem;
+        
+        background-color: #ffefe8;
+        border: solid black 4px;
+        border-radius: 30px;
+        
+    }
+    
+    
+    .first {
+        background-color: #ffefe8;
+        color: black;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+   
+    
+    #footer_section footer hr {
+        width: 4.2rem;
+        height: 0.1rem;
+        color: #ff702a;
+        background-color: #ff702a;
+        border-color: #ff702a;
+    }
+    
+    .menu_links_box {
+        display: flex;
+        flex-direction: column;
+        margin-right: 3rem;
+        
+    }
+    
+    .menu_links_box a {
+        text-decoration: none;
+    }
+    
+    .menu_links_box a:visited, .menu_links_box a {
+        color: white;
+    }
+    
+    .menu_links_box a:first-of-type {
+        margin-top: 1rem;
+    }
+    
+    .our_service_box {
+        display: flex;
+        flex-direction: column;
+        margin-right: 3rem;
+    }
+    
+    .our_service_box p:first-of-type {
+        margin-top: 1rem;
+    }
+    
+    .info_box {
+        display: flex;
+        flex-direction: column;
+        margin-right: 3rem;
+    }
+    
+    .info_box p:first-of-type {
+        margin-top: 1rem;
+    }
+    
+    .icon_box {
+        border: solid #ff702a 5px;
+        background-color: #ff702a;
+        border-radius: 50%;
+        margin-left: 0.4rem;
+        margin-top: 1rem;
+    }
+    
+    .phone {
+        border: solid #ff702a 5px;
+        background-color: #ff702a;
+        border-radius: 50%;
+        
+    }
+    
+    .icon_box:hover {
+        transition: 0.2s;
+        transform: scale(1.1);
+        background-color: #dd926d;
+        border-color: #dd926d;
+        cursor: pointer;
+    }
+    
+    
+    .cart_icon {
+        background-color: #ffefe8
+    }
+    
+    .bxs-cart {
+        font-size: 2rem;
+    }
+}
 
-} */
